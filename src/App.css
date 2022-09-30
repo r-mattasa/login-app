@@ -1,0 +1,90 @@
+@import "@font/nunito";
+body{
+     background: rgb(214, 213, 213);
+     font-family: var(--fontFamily-nunito);;
+     /*background: #0f0c29;  fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);   Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:15px;
+  } 
+
+  .register {
+    width: 700px;
+    display:flex;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px #e9ecef;   
+    justify-content: center;
+    padding:25px;
+  }
+  
+  .rounded5{
+    background-color:#FFFFFF;
+    border-radius: 5px;
+    justify-content: center;
+    box-shadow: 1px 3px 10px #e9ecef; 
+    padding:25px 40px;
+  }
+  
+  .logo{
+    background-image: url("assests/Logo.png");
+    width: auto;
+    height: auto;
+    padding: 30px ;
+    margin-left: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .header{
+    /*font-family: 'Times New Roman', Times, serif; */
+    font-weight: 700;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.newUserLabel{
+  font-size: 10px;
+  color: #adb5bd;
+  text-align: left;
+}
+
+  .register span{
+    font-size: 12px;
+    color: #adb5bd; 
+  }
+
+  .register .forgotPassword{
+    text-align: right;
+  }
+
+  .button {
+    position: relative;
+    width: 250px;
+    height: auto;
+    background-color: #2F4D52 !important;
+    border-radius: 8px;
+    /*background-color: #370344 t;*/
+  }
+
+  .offscreen {
+    position: absolute;
+    left: -9999px;
+  }
+  
+  .errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
